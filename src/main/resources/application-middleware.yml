@@ -1,0 +1,5 @@
+# Primary data source
+spring.datasource.jndi-name: java:comp/env/jdbc/IntercitySmartBus
+
+# TODO Additional data source - Update JNDI
+secondary.datasource.jndi-name: java:comp/env/jdbc/secondary
